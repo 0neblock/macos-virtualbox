@@ -19,9 +19,9 @@ macOS_release_name="Catalina"    # install "HighSierra" "Mojave" or "Catalina"
 storage_size=80000               # VM disk image size in MB, minimum 22000
 storage_format="vdi"             # VM disk image file format, "vdi" or "vmdk"
 cpu_count=2                      # VM CPU cores, minimum 2
-memory_size=4096                 # VM RAM in MB, minimum 2048
+memory_size=8192                 # VM RAM in MB, minimum 2048
 gpu_vram=128                     # VM video RAM in MB, minimum 34, maximum 128
-resolution="1280x800"            # VM display resolution
+resolution="2560x1440"            # VM display resolution
 
 # The following commented commands, when executed on a genuine Mac,
 # may provide the values for NVRAM and other parameters required by iCloud,
@@ -35,8 +35,8 @@ DmiSystemFamily="MacBook Pro"        # Model Name
 DmiSystemProduct="MacBookPro14,3"    # Model Identifier
 DmiSystemSerial="C02WN0K7HTD3"       # Serial Number (system)
 DmiSystemUuid="90178997-579B-5CB0-B75D-33AC4BEC392F" # Hardware UUID
-DmiOEMVBoxVer="string:1"             # Apple ROM Info
-DmiOEMVBoxRev="string:.23456"        # Apple ROM Info
+DmiOEMVBoxVer="string:2"             # Apple ROM Info
+DmiOEMVBoxRev="string:.45f0"        # Apple ROM Info
 DmiBIOSVersion="207.0.0.0.0"      # Boot ROM Version
 #   ioreg -l | grep -m 1 board-id
 DmiBoardProduct="Mac-551B86E5744E2387"
