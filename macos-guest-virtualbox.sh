@@ -39,7 +39,7 @@ DmiOEMVBoxVer="string:2"             # Apple ROM Info
 DmiOEMVBoxRev="string:.45f0"        # Apple ROM Info
 DmiBIOSVersion="207.0.0.0.0"      # Boot ROM Version
 #   ioreg -l | grep -m 1 board-id
-DmiBoardProduct="Mac-551B86E5744E2387"
+DmiBoardProduct="Mac-551B86E5744E2388"
 #   nvram 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:MLB
 DmiBoardSerial="C028184024BJ1HN1E"
 MLB="${DmiBoardSerial}"
