@@ -32,21 +32,21 @@ resolution="1280x800"            # VM display resolution
 
 #   system_profiler SPHardwareDataType
 DmiSystemFamily="MacBook Pro"        # Model Name
-DmiSystemProduct="MacBookPro11,2"    # Model Identifier
-DmiSystemSerial="NO_DEVICE_SN"       # Serial Number (system)
-DmiSystemUuid="CAFECAFE-CAFE-CAFE-CAFE-DECAFFDECAFF" # Hardware UUID
+DmiSystemProduct="MacBookPro14,3"    # Model Identifier
+DmiSystemSerial="C02WN0K7HTD3"       # Serial Number (system)
+DmiSystemUuid="90178997-579B-5CB0-B75D-33AC4BEC392F" # Hardware UUID
 DmiOEMVBoxVer="string:1"             # Apple ROM Info
 DmiOEMVBoxRev="string:.23456"        # Apple ROM Info
-DmiBIOSVersion="string:MBP7.89"      # Boot ROM Version
+DmiBIOSVersion="207.0.0.0.0"      # Boot ROM Version
 #   ioreg -l | grep -m 1 board-id
-DmiBoardProduct="Mac-3CBD00234E554E41"
+DmiBoardProduct="Mac-551B86E5744E2387"
 #   nvram 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:MLB
-DmiBoardSerial="NO_LOGIC_BOARD_SN"
+DmiBoardSerial="C028184024BJ1HN1E"
 MLB="${DmiBoardSerial}"
 #   nvram 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:ROM
-ROM='%aa*%bbg%cc%dd'
+ROM='%84hx%12%96%9e'
 #   ioreg -l -p IODeviceTree | grep \"system-id
-SYSTEM_UUID="aabbccddeeff00112233445566778899"
+SYSTEM_UUID="0742f6ab66a69e5eaaab4588417d66a5"
 #   csrutil status
 SYSTEM_INTEGRITY_PROTECTION='10'  # '10' - enabled, '77' - disabled
 
